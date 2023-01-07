@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}  
+
+:root {
+    --ff-palanquin: 'Palanquin', sans-serif;
+    --ff-staatliches: 'Staatliches', cursive;
+    font-size: 62.5%;
+    --bg-primary: #a70505fb;
+    --bg-secundary: #800808;
+    --bg-terceary: #000000;
+    --bg-title-h2: #feecfa;
+  
+    --tc-h1: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+  }
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    
+    max-width: 38.7rem;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-radius: .5rem;
+  }
+
+.logo {
+    width: 100%;
+    background-color: #2f9751;
+    display: flex;
+    border-radius: 0 0 10rem 10rem;
+    padding: 1rem;
+    
+}
+
+.logo img {
+    width: 50%;
+    margin: 0 auto;
+ }
+
+.perfil {
+    display: flex;
+    text-align: center;
+    margin: 2rem auto;
+    justify-content: space-around;
+}
+
+
+.fotoperfil {
+  width: 10rem;
+  border-radius: 50%;
+  height: 10rem;
+  padding: .4rem;
+  border: #2f9751 solid .4rem;
+
+}
+
+.info h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #071f01;
+}
+
+.info p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #071f01;
+}
+
+.info a {
+  color: #071f01;
+}
+
+button img {
+  width: 50%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 15rem;
+  border: none;
+  background-color: #000000;
+    
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: background 500ms;
+    
+  height: 5rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: #2f9751;
+  margin-bottom: 1.5rem;
+}
+
+.title h1 {
+  line-height: 5rem;
+  color:#FFFFFF
+}
+
+.container {
+  position: relative;
+  padding: 15px;
+  max-width: 640px;
+  margin: 0 auto;
+  border: 5px solid #2f9751;
+  border-radius: 2rem;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+  height: 20rem;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+  height: 100%;
+}
+
+.gallery a img {
+  height: 98%;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
