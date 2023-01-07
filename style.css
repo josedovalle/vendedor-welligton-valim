@@ -140,6 +140,7 @@ button:hover {
 
 .gallery a img {
   height: 98%;
+  width: 20rem;
 }
 
 .gallery-wrapper::-webkit-scrollbar {
