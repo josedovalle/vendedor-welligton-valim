@@ -135,7 +135,6 @@ button:hover {
 .gallery {
   display: flex;
   flex-flow: row nowrap;
-  gap: 15px;
   height: 100%;
 }
 
