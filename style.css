@@ -119,10 +119,10 @@ button:hover {
 }
 
 .container {
-  position: relative;
-  padding: 15px;
-  max-width: 640px;
-  margin: 0 auto;
+  
+  padding: .5rem;
+  max-width: 64rem;
+  
   border: 5px solid #2f9751;
   border-radius: 2rem;
 }
