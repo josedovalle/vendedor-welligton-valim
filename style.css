@@ -5,15 +5,7 @@
 }  
 
 :root {
-    --ff-palanquin: 'Palanquin', sans-serif;
-    --ff-staatliches: 'Staatliches', cursive;
-    font-size: 62.5%;
-    --bg-primary: #a70505fb;
-    --bg-secundary: #800808;
-    --bg-terceary: #000000;
-    --bg-title-h2: #feecfa;
-  
-    --tc-h1: #FFFFFF;
+  font-size: 62.5%;
 }
 
 a {
@@ -35,7 +27,7 @@ body {
 
 .logo {
     width: 100%;
-    background-color: #2f9751;
+    background: transparent linear-gradient(to right,#005d1f 0%,#2b9117 50%,#005d1f 100%) 0% 0% no-repeat padding-box;
     display: flex;
     border-radius: 0 0 10rem 10rem;
     padding: 1rem;
@@ -54,30 +46,35 @@ body {
     justify-content: space-around;
 }
 
+.foto {
+  border: #277816 solid .4rem;
+  border-radius: 50%;
+  height: 10.5rem;
+  width: 10.5rem;
+}
+
 
 .fotoperfil {
-  width: 10rem;
+  width: 100%;
   border-radius: 50%;
-  height: 10rem;
+  height: 100%;
   padding: .4rem;
-  border: #2f9751 solid .4rem;
-
 }
 
 .info h1 {
   font-size: 3rem;
   line-height: 4rem;
-  color: #071f01;
+  color: #000000;
 }
 
 .info p {
   font-size: 1.8rem;
   line-height: 3rem;
-  color: #071f01;
+  color: #000000;
 }
 
 .info a {
-  color: #071f01;
+  color: #70026b;
 }
 
 button img {
@@ -109,7 +106,7 @@ button:hover {
 .title {
   display: flex;
   justify-content: center;
-  background-color: #2f9751;
+  background: transparent linear-gradient(to right,#005d1f 0%,#2b9117 50%,#005d1f 100%) 0% 0% no-repeat padding-box;
   margin-bottom: 1.5rem;
 }
 
@@ -123,7 +120,7 @@ button:hover {
   padding: .5rem;
   max-width: 64rem;
   
-  border: 5px solid #2f9751;
+  border: 5px solid #277816;
   border-radius: 2rem;
 }
 
@@ -143,9 +140,14 @@ button:hover {
 }
 
 .gallery a {
-  width: 22rem;
+  width: 20rem;
 }
 
 .gallery-wrapper::-webkit-scrollbar {
   display: none;
+}
+
+footer {
+  width: 33rem;
+  background: transparent linear-gradient(to right,#005d1f 0%,#277816 50%,#005d1f 100%) 0% 0% no-repeat padding-box;
 }
