@@ -78,7 +78,7 @@ body {
 }
 
 button img {
-  width: 50%;
+  width: 60%;
 }
 
 .button {
@@ -108,6 +108,7 @@ button:hover {
   justify-content: center;
   background: transparent linear-gradient(to right,#005d1f 0%,#2b9117 50%,#005d1f 100%) 0% 0% no-repeat padding-box;
   margin-bottom: 1.5rem;
+  border-radius: 1rem;
 }
 
 .title h1 {
@@ -122,6 +123,7 @@ button:hover {
   
   border: 5px solid #277816;
   border-radius: 2rem;
+  margin-bottom: 4rem;
 }
 
 .gallery-wrapper {
@@ -148,6 +150,30 @@ button:hover {
 }
 
 footer {
-  width: 33rem;
-  background: transparent linear-gradient(to right,#005d1f 0%,#277816 50%,#005d1f 100%) 0% 0% no-repeat padding-box;
+  font-size: 1.7rem;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 0.8rem 0.8rem 0 0;
+  display: flex;
+  background: #2b9117d8;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer a {
+  margin: 0 auto;
+  width: 70%;
+  height: 50%;
+}
+
+footer a button {
+  width: 15rem;
+  border: none;
+  background-color: #000000a9;
+  color:#c7c7c7;
+  width: 60%;
+}
+
+.credito {
+  font-size: 1.5rem;
 }
